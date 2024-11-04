@@ -1,4 +1,4 @@
-@media (max-width: 979px) {
+/* @media (max-width: 979px) {
   .main-content h1 {
     font-size: 43px;
   }
@@ -157,5 +157,45 @@
     font-size: 12px;
     width: 135px;
     height: 25px;
+  }
+} */
+
+@media (max-width: 837px) {
+  .header .container {
+    padding-inline: 40px;
+  }
+  .container {
+    padding-inline: 60px;
+  }
+  #header {
+    padding-block: 20px;
+  }
+  #main {
+    padding-block: 30px;
+  }
+}
+
+@media (max-width: 682px) {
+  .header .container {
+    padding-inline: 40px;
+  }
+  .container {
+    padding-inline: 40px;
+  }
+}
+
+@media (max-width: 607px) {
+  .header {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content {
+    align-items: center;
   }
 }
