@@ -130,6 +130,12 @@
 }
 
 @media (max-width: 432px) {
+  #header .container {
+    padding-inline: 20px;
+  }
+  .container {
+    padding-inline: 20px;
+  }
   .main-content p {
     font-size: 12px;
     width: 270px;
@@ -146,10 +152,7 @@
   .main-content h1 {
     font-size: 25px;
   }
-  .main-content p {
-    font-size: 11px;
-    width: 250px;
-  }
+
   .main-content button {
     font-size: 12px;
     width: 135px;
